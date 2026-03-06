@@ -4,19 +4,19 @@ AZURE_TRACING_GEN_AI_CONTENT_RECORDING_ENABLED="true"
 # Microsoft Foundry credentials
 FOUNDRY_ENDPOINT=""
 FOUNDRY_KEY=""
-FOUNDRY_API_VERSION="2025-01-01-preview"
+FOUNDRY_API_VERSION="2024-05-01-preview"
 
 # GPT credentials
 gpt_endpoint=""
 gpt_deployment="gpt-5-mini"
 gpt_api_key=""
-gpt_api_version="2025-01-01-preview"
+gpt_api_version="2024-05-01-preview"
 
 # Text-embedding-3-large credentials
 embedding_endpoint=""
 embedding_deployment="text-embedding-3-large"
 embedding_api_key=""
-embedding_api_version="2025-01-01-preview"
+embedding_api_version="2024-05-01-preview"
 
 # Phi-4 credentials
 phi_4_endpoint=""
