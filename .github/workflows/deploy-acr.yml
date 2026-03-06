@@ -41,7 +41,6 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            ${{ secrets.ACR_LOGIN_SERVER }}/techworkshop-app:${{ github.sha }}
             ${{ secrets.ACR_LOGIN_SERVER }}/techworkshop-app:latest
 
       - name: Clean up .env file
